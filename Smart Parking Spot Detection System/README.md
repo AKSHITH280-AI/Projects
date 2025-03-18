@@ -4,12 +4,9 @@ This project demonstrates a simple car parking space detection system using Open
 
 ## Table of Contents
 - [Overview](#overview)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Files and Folders](#files-and-folders)
-- [Contributing](#contributing)
-- [License](#license)
-- [Credits](#credits)
+
 
 ## Overview
 
