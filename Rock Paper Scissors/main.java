@@ -3,13 +3,12 @@ import java.util.Scanner;
 
 public class RockPaperScissors {
     public static void main(String[] args) {
-        // Displaying game rules
+        
         System.out.println("Winning rules of the game ROCK PAPER SCISSORS are:\n"
                 + "Rock vs Paper -> Paper wins \n"
                 + "Rock vs Scissors -> Rock wins \n"
                 + "Paper vs Scissors -> Scissor wins \n");
 
-        // Initializing scanner and random for input and computer choice
         Scanner sc = new Scanner(System.in);
         Random rand = new Random();
         String playAgain;
@@ -18,13 +17,12 @@ public class RockPaperScissors {
             System.out.println("Enter your choice: \n 1 - Rock \n 2 - Paper \n 3 - Scissors \n");
             int choice = sc.nextInt();
 
-            // Validate input choice
+            
             while (choice > 3 || choice < 1) {
                 System.out.println("Enter a valid choice please: ");
                 choice = sc.nextInt();
             }
 
-            // User's choice as a string
             String choiceName;
             if (choice == 1) {
                 choiceName = "Rock";
@@ -37,7 +35,6 @@ public class RockPaperScissors {
             System.out.println("User choice is: " + choiceName);
             System.out.println("Now it's Computer's Turn...");
 
-            // Generate computer's choice
             int compChoice = rand.nextInt(3) + 1;
             String compChoiceName;
             if (compChoice == 1) {
@@ -51,7 +48,6 @@ public class RockPaperScissors {
             System.out.println("Computer choice is: " + compChoiceName);
             System.out.println(choiceName + " Vs " + compChoiceName);
 
-            // Determine result
             String result;
             if (choice == compChoice) {
                 result = "DRAW";
@@ -68,7 +64,6 @@ public class RockPaperScissors {
                 System.out.println("Scissors wins =>");
             }
 
-            // Announce who won
             if (!result.equals("DRAW")) {
                 if (result.equals(choiceName)) {
                     System.out.println("<== User wins! ==>");
@@ -77,7 +72,6 @@ public class RockPaperScissors {
                 }
             }
 
-            // Ask for replay
             System.out.println("Do you want to play again? (Y/N)");
             playAgain = sc.next().toLowerCase();
         } while (playAgain.equals("y"));
