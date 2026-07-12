@@ -1,0 +1,75 @@
+[
+{
+"question": "Who are the authors of the paper?",
+"relevant_chunk_ids": [
+"bert.pdf_p1_c1",
+"bert.pdf_p7_c3"
+]
+},
+{
+"question": "How does model size affect performance in BERT?",
+"relevant_chunk_ids": [
+"bert.pdf_p6_c3",
+"bert.pdf_p8_c4",
+"bert.pdf_p8_c5",
+"bert.pdf_p3_c4"
+]
+},
+{
+"question": "What are the two model sizes reported in the BERT paper?",
+"relevant_chunk_ids": [
+"bert.pdf_p6_c3",
+"bert.pdf_p3_c4"
+]
+},
+{
+"question": "What learning rates were selected for fine-tuning BERT?",
+"relevant_chunk_ids": [
+"bert.pdf_p6_c2",
+"bert.pdf_p14_c1",
+"bert.pdf_p14_c3"
+]
+},
+{
+"question": "When was TechNova founded?",
+"relevant_chunk_ids": [
+"company_report_unique_10_pages.pdf_p2_c1",
+"company_report_unique_10_pages.pdf_p1_c1"
+]
+},
+{
+"question": "What products and services does TechNova offer?",
+"relevant_chunk_ids": [
+"company_report_unique_10_pages.pdf_p4_c1",
+"company_report_unique_10_pages.pdf_p1_c1"
+]
+},
+{
+"question": "What technologies and frameworks are used in TechNova's technology stack?",
+"relevant_chunk_ids": [
+"company_report_unique_10_pages.pdf_p5_c1",
+"company_report_unique_10_pages.pdf_p1_c1"
+]
+},
+{
+"question": "In which sectors are TechNova's services used?",
+"relevant_chunk_ids": [
+"company_report_unique_10_pages.pdf_p6_c1",
+"company_report_unique_10_pages.pdf_p7_c1"
+]
+},
+{
+"question": "Who are TechNova's customer segments?",
+"relevant_chunk_ids": [
+"company_report_unique_10_pages.pdf_p7_c1",
+"company_report_unique_10_pages.pdf_p6_c1"
+]
+},
+{
+"question": "What is TechNova's future roadmap?",
+"relevant_chunk_ids": [
+"company_report_unique_10_pages.pdf_p9_c1",
+"company_report_unique_10_pages.pdf_p10_c1"
+]
+}
+]
